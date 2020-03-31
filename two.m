@@ -1,8 +1,4 @@
-x = [0:0.001:2*pi];
-y = ((sin(x))./x);
-polar(x,y)
-xlabel('x')
-ylabel('y')
-title('ex2')
-
-
+x = linspace(0,2*pi,1000);
+l = sin(x)./x;
+plot(l.*cos(x),l.*sin(f));
+title('ex2');
